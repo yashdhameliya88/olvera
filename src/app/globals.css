@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.font-family-montserrat-alternates {
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.montserrat-alternates-bold {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.toggle-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 24px;
+}
+
+.toggle-button:hover {
+  background-color: #f0f0f0;
+}
+
+@media only screen and (max-width: 768px) {
+  .lg:flex {
+    display: none;
+  }
+  .xs:block {
+    display: block;
+  }
+  .xs:h-6 {
+    height: 36px;
+  }
+  .text-3xl {
+    font-size: 2rem;
+  }
+  .md:text-5xl {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .lg:flex {
+    display: flex;
+  }
+  .xs:block {
+    display: none;
+  }
+  .text-3xl {
+    font-size: 3rem;
+  }
+  .md:text-5xl {
+    font-size: 5rem;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .logo {
+    left: 0;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .logo {
+    position: relative;
+    left: auto;
+    
+  }
+}
+
+.aboutus {
+  padding: 100px 122px 50px 152px;
+}
+.aboutinfo{
+  padding: 120px 0 23px;
+}
+
+.textpink h3{
+  color: #CC0E8C;
+}
+
+.border-bottom{
+  border-bottom: 1px solid #BCBCBC;
+}
