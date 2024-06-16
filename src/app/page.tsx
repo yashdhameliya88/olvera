@@ -14,11 +14,21 @@ export default function Home() {
     <div className="bg-gray-100">
       <TopHeader />
       <Navbar/>
-      <Homeinfo/>
-      <AboutUs/>
-      <OurServices/>
-      <OlveraGuides/>
-      <Careers/>
+      <div id="home">
+        <Homeinfo />
+      </div>
+      <div id="about-us">
+        <AboutUs/>
+      </div>
+      <div id="our-services">
+        <OurServices/>
+      </div>
+      <div id="our-experience">
+        <OlveraGuides/>
+      </div>
+      <div id="resources">
+        <Careers/>
+      </div>
       <VideoPlay/>
       <ClientReview/>
       <Footer/>

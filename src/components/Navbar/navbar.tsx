@@ -15,27 +15,27 @@ const Navbar = () => {
         <div className="hidden lg:flex md:flex sm:flex xs:flex flex-wrap justify-end">
           <ul className="flex space-x-6">
             <li style={{ fontFamily: 'Montserrat Alternates' }}>
-              <Link className="text-[15px] font-bold leading-[11px] tracking-[2px]" href="/">
+              <Link className="text-[15px] font-bold leading-[11px] tracking-[2px]" href="#home">
                 Home
               </Link>
             </li>
             <li style={{ fontFamily: 'Montserrat Alternates' }}>
-              <Link className="text-[15px] font-bold leading-[11px] tracking-[2px]" href="/about">
+              <Link className="text-[15px] font-bold leading-[11px] tracking-[2px]" href="#about-us">
                 About Us
               </Link>
             </li>
             <li style={{ fontFamily: 'Montserrat Alternates' }}>
-              <Link className="text-[15px] font-bold leading-[11px] tracking-[2px]" href="/services">
+              <Link className="text-[15px] font-bold leading-[11px] tracking-[2px]" href="#our-services">
                 Our Services
               </Link>
             </li>
             <li style={{ fontFamily: 'Montserrat Alternates' }}>
-              <Link className="text-[15px] font-bold leading-[11px] tracking-[2px]" href="/experience">
+              <Link className="text-[15px] font-bold leading-[11px] tracking-[2px]" href="#our-experience">
                 Our Experience
               </Link>
             </li>
             <li style={{ fontFamily: 'Montserrat Alternates' }}>
-              <Link className="text-[15px] font-bold leading-[11px] tracking-[2px]" href="/resources">
+              <Link className="text-[15px] font-bold leading-[11px] tracking-[2px]" href="#resources">
                 Resources
               </Link>
             </li>
